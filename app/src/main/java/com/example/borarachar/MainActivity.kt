@@ -26,9 +26,9 @@ class MainActivity : AppCompatActivity(), TextToSpeech.OnInitListener {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        qtdPessoas = findViewById(R.id.editTextNumber)
-        qtdDinheiro = findViewById(R.id.editTextNumberDecimal)
-        total = findViewById(R.id.textView3)
+        qtdPessoas = findViewById(R.id.editTextNumber2)
+        qtdDinheiro = findViewById(R.id.editTextNumberDecimal2)
+        total = findViewById(R.id.textView4)
         ttsButton = findViewById(R.id.floatingActionButton2)
         shareButton = findViewById(R.id.floatingActionButton)
 
